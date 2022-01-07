@@ -393,7 +393,7 @@ function build_netcdf {
 }
 
 function build_pcre {
-    build_simple pcre $PCRE_VERSION https://ftp.pcre.org/pub/pcre
+    build_simple pcre $PCRE_VERSION https://download.sourceforge.net/pcre
 }
 
 function build_swig {
